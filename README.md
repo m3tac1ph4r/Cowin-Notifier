@@ -1,5 +1,8 @@
 # Cowin Notifier
 ![visitors](https://visitor-badge.laobi.icu/badge?page\_id=m3tac1ph4r.Cowin-Notifier)
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
+<img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+
 ## About
 Cowin Notifer is a simple telegram bot that automatically sends notification regarding the availablity of vaccine in your discrict.
 You can host it on your personal device or you can use the following link to access it
@@ -24,7 +27,7 @@ On 6th May 2021, CoWin API added caching and rate limits. The public API data wo
 
 1.Now open your bot in telegram and click start.
 
-2.Then notify-start and then give the required details.
+2.Then click notify-start and then give the required details.
 
 
 ---
@@ -32,4 +35,3 @@ On 6th May 2021, CoWin API added caching and rate limits. The public API data wo
 * [Ashutosh Gupta](https://www.linkedin.com/in/ashutoshg547/)
 * [Shubham Arya](https://github.com/ev1lm0rty)
 
----
