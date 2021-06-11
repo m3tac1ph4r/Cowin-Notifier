@@ -8,7 +8,7 @@ You can host it on your personal device or you can use the following link to acc
 ---
 ## Installation
 1. Clone the repo  `git clone https://github.com/`
-2. Install dependencies `pip install decouple pyTelegramBotAPI`  [Docs](https://pypi.org/project/pyTelegramBotAPI/)
+2. Install dependencies `pip install decouple pyTelegramBotAPI time datetime requests`  [Docs](https://pypi.org/project/pyTelegramBotAPI/)
 4. [Create a telegram bot using BotFather](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
 5. Put the Bot's API Token in the .env file
 6. Run  `python3 main.py`
