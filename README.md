@@ -20,9 +20,10 @@ On 6th May 2021, CoWin API added caching and rate limits. The public API data wo
 
 ---
 ## Demo
-![Demo](https://asciinema.org/a/419770)
+[![asciicast](https://asciinema.org/a/419770.svg)](https://asciinema.org/a/419770)
 
 1.Now open your bot in telegram and click start.
+
 2.Then notify-start and then give the required details.
 
 
