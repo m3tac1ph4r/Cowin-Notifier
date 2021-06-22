@@ -36,26 +36,8 @@ def vaccine_available(age_query):
 				if(dc==1):
 					id = helper.get_chat_id(dname, age_query)
 					vaccine_info = helper.get_vax_info(district["district_id"],age_query)
-					vax_to_telegram(id, vaccine_info, age_query)
+					helper.vax_to_telegram(id, vaccine_info, age_query)
 
-def vax_to_telegram(id, vaccine_info, age_query):
-	global s
-	if(len(id) > 0):
-		for i in range(len(vaccine_info)):
-			vaccine = vaccine_info[i]
-			s = f"""
-Name:{vaccine["name"]}
-Pincode: {vaccine["pincode"]}
-available capacity dose1: {vaccine["available_capacity_dose1"]}
-available capacity dose2: {vaccine["available_capacity_dose2"]}
-min_age_limit: {vaccine["min_age_limit"]}
-slots: {vaccine["slots"]}
-vaccine: {vaccine["vaccine"]}
-Fee Type: {vaccine["fee_type"]}"""
-			for i in range(0, len(id)):
-				chat_id = str(id[i])
-				url = f"https://api.telegram.org/bot{API_KEY}/sendMessage?chat_id={chat_id}&text={s}"
-				r = requests.post(url)
 
 def main():
 	global dt
@@ -67,7 +49,7 @@ def main():
 			vaccine_available("18")
 			vaccine_available("45")
 			return 1
-		elif(current_time=="10:00" or current_time=="10:30" or current_time=="11:00" or current_time=="11:30"):
+		elif(current_time=="11:00" or current_time=="11:35" or current_time=="12:00" or current_time=="12:30" or current_time=="12:50"):
 			vaccine_available("18")
 			return 0
 		else:
@@ -76,7 +58,7 @@ def main():
 if __name__ == "__main__":
 	# global dt
 	while(1):
-		dt = datetime.now() + timedelta(hours=3.5)
+		dt = datetime.now() + timedelta(hours=3)
 		a=main()
 		if(a==0):
 			b=main()

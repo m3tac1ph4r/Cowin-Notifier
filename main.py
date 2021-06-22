@@ -46,6 +46,16 @@ def notify_stop(message):
     s="Thank you for using Cowin Notifier"
     bot.send_message(message.chat.id, s)
 
+# /vaxinfo
+@bot.message_handler(commands=["vaxinfo"])
+def vaxinfo(message):
+    state = helper.state_click(message.chat.id)
+    district=helper.district_click(message.chat.id,state)
+    age=helper.age_click(message.chat.id)
+    helper.immediate_vax_info(message.chat.id, state, district, age)
+    helper.delete_user(message.chat.id)
+
+
 #this will handle all other messages
 def handle_messages(messages):
     for message in messages:

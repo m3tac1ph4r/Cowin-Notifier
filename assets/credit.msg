@@ -4,9 +4,5 @@
 1. Ashutosh Gupta
 2. Shubham Arya
 
-# API Used
-
+# API 
 Api-Setu
-
-# Source Code
-https://github.com/m3tac1ph4r/Cowin-Notifier
