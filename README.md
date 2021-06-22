@@ -4,9 +4,7 @@
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 
 ## About
-Cowin Notifer is a simple telegram bot that automatically sends notification regarding the availablity of vaccine in your discrict.
-You can host it on your personal device or you can use the following link to access it
-[Cowin-Notifier-Bot](http://t.me/notifycowin_bot)
+Cowin-Notifer is a simple telegram bot that automatically sends notification regarding the availability of vaccine in your district. This is also a real time tracker of vaccine , you can check availability of vaccine using command /vaxinfo . You can host this bot in on your device.
 
 ---
 ## Installation
