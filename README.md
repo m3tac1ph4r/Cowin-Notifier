@@ -3,6 +3,10 @@
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+
+![hackCovid2.0](https://drive.google.com/uc?export=view&id=1_R01HPkmNGBFJz9hR7N9Sjmpbh1jKvNF)
+*I feel super happy to announce that my project,Cowin-Notifier , has been selected to win the Seventh Prize.*
 ## About
 Cowin-Notifer is a simple telegram bot that automatically sends notification regarding the availability of vaccine in your district. This is also a real time tracker of vaccine , you can check availability of vaccine using command /vaxinfo . You can host this bot in on your device.
 
@@ -30,6 +34,8 @@ On 6th May 2021, CoWin API added caching and rate limits. The public API data wo
 
 ---
 ## Made with Love <3 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 * [Ashutosh Gupta](https://www.linkedin.com/in/ashutoshg547/)
 * [Shubham Arya](https://github.com/ev1lm0rty)
 
