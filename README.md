@@ -8,7 +8,7 @@
 ![hackCovid2.0](https://drive.google.com/uc?export=view&id=1_R01HPkmNGBFJz9hR7N9Sjmpbh1jKvNF)
 *I feel super happy to announce that my project,Cowin-Notifier , has been selected to win the Seventh Prize.*
 ## About
-Cowin-Notifer is a simple telegram bot that automatically sends notification regarding the availability of vaccine in your district. This is also a real time tracker of vaccine , you can check availability of vaccine using command /vaxinfo . You can host this bot in on your device.
+Cowin-Notifer is a simple telegram bot that automatically sends notification regarding the availability of vaccine in your district. This is also a real time tracker of vaccine , you can check availability of vaccine using command /vaxinfo. You can host this bot in on your device.
 
 ---
 ## Installation
